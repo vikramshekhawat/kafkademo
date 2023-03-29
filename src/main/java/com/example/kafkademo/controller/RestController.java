@@ -13,7 +13,7 @@ public class RestController {
     @Autowired
     Producer producer;
     @GetMapping("/producerMsg")
-    public void getMessageFromClient(@RequestParam("message")  String message){
+    public void getMessageFromClient(@RequestParam("msg")  String message){
         producer.sendMessageToTopic(message);
 
 
