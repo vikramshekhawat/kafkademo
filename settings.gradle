@@ -1,0 +1,2 @@
+rootProject.name = 'kafkademo'
+include 'BaseProject','KafkaProducer','KafkaConsumer', 'email'
